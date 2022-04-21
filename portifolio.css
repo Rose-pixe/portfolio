@@ -11,7 +11,7 @@ section{
 }
 .banner{
 	position: relative;
-	min-height: 100vh;
+	min-height:100vh;
 	background-color: #ccc;
 	background-size: cover;
 	background-position: right;
@@ -20,7 +20,7 @@ section{
 	align-items: center;
 }
 .banner h2{
-	font-size: 3em;
+	font-size: 2em;
 	color:rgb(39,41,45);
 	font-weight: 500;
 	line-height: 1.5em;
@@ -353,6 +353,7 @@ section{
   }
 .banner{
 	padding: 150px 50px 100px;
+	min-height:30vh !important;
 }
 .banner h2{
 	font-size: 1.5em;
@@ -406,6 +407,7 @@ section{
 	}
 	.banner{
 		padding: 150px 20px 100px;
+		min-height:10vh !important;
 	}
 	section{
 		padding: 100px 20px;
